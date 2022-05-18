@@ -1,0 +1,34 @@
+.commodity_img{
+    width: 200px;
+    height: 200px;
+}
+.commodity_name{
+    font-size: 20px;
+    
+}
+.commodity_Volume{
+    color: #BDBDBD;
+    
+}
+
+.aClick{
+    fontSize:20px;
+    background:-webkit-linear-gradient(#FBEFEF,#FE2E2E);
+    background:-o-linear-gradient(#FBEFEF,#FE2E2E);
+    background:-moz-linear-gradient(#FBEFEF,#FE2E2E);
+    background:linear-gradient(#FBEFEF,#FE2E2E);
+    margin-top: 180px;
+}
+
+.divTop{
+    width:100%;
+    border:1px;
+    display:flex;
+    margin:10px
+}
+
+.divs{
+    width:20%;
+    marginLeft:20px;
+    
+}

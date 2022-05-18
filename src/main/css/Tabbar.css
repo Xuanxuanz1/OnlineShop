@@ -1,0 +1,16 @@
+.Tabbardiv{
+    bottom: 0px;
+    width: 100%;
+    background: #CEF6E3;
+    position: fixed;
+
+}
+.Tabbartext{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 280px;
+    color: #000;
+}
+.Tabbaractive{
+    color: #F7D358;
+}
