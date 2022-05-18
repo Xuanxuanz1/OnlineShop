@@ -13,6 +13,10 @@ import UserView from "../view/UserView";
 import OrderView from "../view/OrderView";
 import CarItemView from "../view/CarItemView";
 import Forget from "../view/Forget";
+import Test1 from "../view/announcement/test1"
+import Test2 from "../view/announcement/test2"
+import Test3 from "../view/announcement/test3"
+import Advertisement from "../view/Advertisement";
 
 export default class RouterIndex extends Component {
   render() {
@@ -28,6 +32,10 @@ export default class RouterIndex extends Component {
             <Route path="/Login/Center/OrderView" exact component={OrderView}></Route>
             <Route path="/Login/Car" component={Car}></Route>
             <Route path="/Login/Main" exact  component={Main}></Route>
+            <Route path="/Login/Main/Test1" component={Test1}></Route>
+            <Route path="/Login/Main/Test2" component={Test2}></Route>
+            <Route path="/Login/Main/Test3" component={Test3}></Route>
+            <Route path="/Login/Main/Advertisement" component={Advertisement}></Route>
             <Route path="/Login/Main/buyView/payView/Success" component={Success}></Route>
             <Route path="/Login/Main/buyView/PayView/:id/:input_text" component={PayView}></Route>
             <Route path="/Login/Main/buyView/:id" component={buyView}></Route>

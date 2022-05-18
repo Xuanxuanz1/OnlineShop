@@ -1,34 +1,30 @@
-.commodity_img{
-    width: 200px;
-    height: 200px;
+.div1{
+    margin-top:20px;
+    margin-left:60px
 }
-.commodity_name{
-    font-size: 20px;
-    
+.div1:hover{
+    background: #D8D8D8;
 }
-.commodity_Volume{
-    color: #BDBDBD;
-    
+.div1:hover img{
+    opacity: 0.5;
 }
-
-.aClick{
-    fontSize:20px;
-    background:-webkit-linear-gradient(#FBEFEF,#FE2E2E);
-    background:-o-linear-gradient(#FBEFEF,#FE2E2E);
-    background:-moz-linear-gradient(#FBEFEF,#FE2E2E);
-    background:linear-gradient(#FBEFEF,#FE2E2E);
-    margin-top: 180px;
+.div2{
+    margin-top:20px;
+    margin-left: 60px; 
 }
-
-.divTop{
-    width:100%;
-    border:1px;
-    display:flex;
-    margin:10px
+.div2:hover{
+    background: #D8D8D8;
 }
-
-.divs{
-    width:20%;
-    marginLeft:20px;
-    
+.div2:hover img{
+    opacity: 0.5;
+}
+.div3{
+    margin-top:20px;
+    margin-left:60px
+}
+.div3:hover{
+    background: #D8D8D8;
+}
+.div3:hover img{
+    opacity: 0.5;
 }

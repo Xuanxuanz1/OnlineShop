@@ -6,22 +6,22 @@ export default function Login() {
   const [list, setList] = useState([]);
 
 
-  useEffect(() => {
-    axios.get("http://localhost:8000/").then((res) => {
-      setList(res.data);
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("http://localhost:8000/").then((res) => {
+  //     setList(res.data);
+  //   });
+  // }, []);
 
-  const history = useHistory();
-  const LoginCheck = () => {
-    var admin = document.getElementById("admin").value;
-    var password = document.getElementById("password").value;
-    list.map((item) => {
-      if (item.username === admin && item.password === password) {
-        history.push("/Login/Center");
-      }
-    });
-  };
+  // const history = useHistory();
+  // const LoginCheck = () => {
+  //   var admin = document.getElementById("admin").value;
+  //   var password = document.getElementById("password").value;
+  //   list.map((item) => {
+  //     if (item.username === admin && item.password === password) {
+  //       history.push("/Login/Center");
+  //     }
+  //   });
+  // };
 
   return (
     <div
@@ -56,9 +56,10 @@ export default function Login() {
             </NavLink>
           </div>
 
+          <NavLink to={"/Login/Center"} style={{textDecoration:"none",color:"#000"}}>
           <div style={{ display: "flex", marginTop: "50px" }}>
             <button
-              onClick={LoginCheck}
+              // onClick={LoginCheck}
               style={{
                 width: "400px",
                 height: "40px",
@@ -72,6 +73,7 @@ export default function Login() {
               Login
             </button>
           </div>
+          </NavLink>
         </div>
         <img
           style={{ width: "700px", marginTop: "100px", marginLeft: "70px" }}

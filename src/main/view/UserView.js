@@ -7,9 +7,9 @@ export default function UserView() {
   const [list,setList] = useState([]);
 
   useEffect(()=>{
-    axios.get("http://localhost:8000/").then((res)=>{
-      setList(res.data[0])
-      // console.log(res.data[0])
+    axios.get("user.json").then((res)=>{
+      setList(res.data.data[0])
+      // console.log(res.data.data[0])
       
     })
   },[])
